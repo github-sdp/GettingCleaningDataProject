@@ -21,7 +21,7 @@
  # clean environment
   rm(list=ls())
  #set working directory
-  setwd("C:/Users/eurhope/Documents/R/Coursera/Getting and cleaning data/GettingCleaningDataProject")
+  setwd("C:/Documents/Getting and cleaning data/GettingCleaningDataProject")
  # load libraries
   library(readr)
   library(stringr)
