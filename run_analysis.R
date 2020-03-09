@@ -72,10 +72,17 @@
   x.df <-rbind(x_test,x_train)
   y.df <-rbind(y_test,y_train)
   
- #labels
+ #labels and var names
   colnames(s.df) <-c("subject_id")
   colnames(x.df) <- features_header$features
+  names(x.df)<-gsub("^t", "time", names(x.df))
+  names(x.df)<-gsub("^f", "frequency", names(x.df))
+  names(x.df)<-gsub("Acc", "Accelerometer", names(x.df))
+  names(x.df)<-gsub("Gyro", "Gyroscope", names(x.df))
+  names(x.df)<-gsub("Mag", "Magnitude", names(x.df))
+  names(x.df)<-gsub("BodyBody", "Body", names(x.df))
   colnames(y.df) <- c("activity_id")
+  
   
  ############################################################################################
  # (4) select mean and s.d. 
