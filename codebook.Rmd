@@ -1,0 +1,31 @@
+---
+title: "Codebook"
+
+#####################################################################
+#   RAW DATA
+#####################################################################
+Description: Data on  experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope,  3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured.
+
+Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Content: The main files included in the zip file ( getdata_projectfile_UCI HAR Dataset.zip) are:
+
+  - (1)'features.txt': List of all features ( body acceleration, total acceleration,  velocity from the gyroscope)
+
+  - (2)'activity_labels.txt': Links the class labels(numbers from 1 to 6) with their activity name(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+  - (3)'train/X_train.txt': Training set.
+
+  - (4)'train/y_train.txt': Training labels.
+
+  - (5)'test/X_test.txt': Test set.
+
+  -(6) 'test/y_test.txt': Test labels.
+
+
+#####################################################################
+#   FINAL DATA
+#####################################################################
+Name: tidy_dataset.txt
+
+Content: The dataset is the result of merging the dataset (1) to (6) described in the raw data section. Only mean and standard deviation for each measurement have been kept and the average of each variable for each activity and each subject has been taken.

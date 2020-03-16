@@ -21,12 +21,13 @@
  # clean environment
   rm(list=ls())
  #set working directory
-  setwd("C:/Documents/Getting and cleaning data/GettingCleaningDataProject")
- # load libraries
+  setwd("Getting and cleaning data/GettingCleaningDataProject")
+  # load libraries
   library(readr)
   library(stringr)
   library(dplyr)
 
+  
  ############################################################################################
  # (1) unzip file
  #############################################################################################
@@ -107,4 +108,6 @@
   # Write the data out
   write.table(tidy.df, "tidy_dataset.txt", row.names = FALSE)
   
+  
+ 
   
