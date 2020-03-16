@@ -6,6 +6,7 @@ Peer-graded assignment for the Coursera class "Getting and cleaning data", part 
 ###### CONTENT OF THE REPOSITORY #####
 The  main files contained in the repository are:
 
+- getdata_projectfile_UCI HAR Dataset.zip: the zip file containing the original dataset downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 -run_analysis.R: the R script that:
    -Merges the training and the test sets to create one data set.
