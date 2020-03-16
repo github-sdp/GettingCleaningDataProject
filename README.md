@@ -1,9 +1,6 @@
-#############################################################
-# GettingCleaningDataProject
-##############################################################
-Peer-graded assignment for the Coursera class "Getting and cleaning data", part of the Data Science specialization
 
-###### CONTENT OF THE REPOSITORY #####
+########################## GettingCleaningDataProject ##########################
+
 The  main files contained in the repository are:
 
 - getdata_projectfile_UCI HAR Dataset.zip: the zip file containing the original dataset downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
